@@ -1,0 +1,88 @@
+body {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(247, 236, 224);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(126, 123, 123);
+    margin-top: 50px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 12px 16px 0px gray;
+}
+
+
+
+button {
+    width: 100px;
+    height: 70px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 3px inset black;
+}
+
+#first-row,
+#second-row,
+#third-row,
+#fourth-row,
+#clear-delete-button {
+    margin-bottom: 5px;
+}
+
+.clear-button,
+.delete-button {
+    width: 204px;
+    margin-top: 5px;
+}
+
+.clear-button {
+    background-color: violet;
+}
+
+.delete-button {
+    background-color: red;
+}
+.display {
+    height: 170px;
+    width: 411px;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    
+}
+
+.last-operation  {
+    height: 20px;
+    font-size: 25px;
+    padding-right: 20px;
+
+}
+
+.footer {
+    display: flex;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.current-number {
+    font-size: 40px;
+    height: 20px;
+    padding-right: 20px;
+    width: 400px;
+    max-width: max-content;
+}
